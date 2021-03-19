@@ -47,7 +47,7 @@ def toggleBuzzer(buzzer):
 	for i in range(1, 5):
 		startBuzzer(buzzer)
 		sleep(0.5)
-		startBuzzer(buzzer)
+		stopBuzzer(buzzer)
 		sleep(0.5)
 
 # Turn LED On	
@@ -67,7 +67,7 @@ def toggleLED(LED):
 	for i in range(1, 5):
 		startLED(LED)
 		sleep(0.5)
-		startLED(LED)
+		stopLED(LED)
 		sleep(0.5)
 
 # Start Microphone and record for 10 seconds
